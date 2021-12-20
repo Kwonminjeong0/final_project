@@ -8,16 +8,18 @@
 > The SVM is a model in which a reference line for classification defines a decision boundary, and depending on the dimension, this boundary can be a line or plane.    
 > The support vector of the support vector machine refers to data near the decision boundary that will determine the decision boundary decisively.     
 > Among them, linear SVC is similar to SVC in which kernel is set to linear.    
-> But while defaulting scaling, SVC minimizes regular aging loss, and linear SVC minimizes the square aging loss.    
+> But while defaulting scaling, SVC minimizes regular aging loss, and linear SVC minimizes the square aging loss.       
+
 
 ### Hyper parameter
 > LinearSVC's hyper parameters include penalty, loss, dual, tool, C, multi_class, fit_intercept, intercept_scaling, class_weight, verbose, random_state, and max_iter.     
 > Penalty is used to determine whether the criterion to be used to give a penalty is l1 or l2, and tol is used to determine the tolerance value, and loss is used to specify the loss function.     
 > Dual is a parameter that can control duality and tol is used to determine the tolerance value.     
 > The intensity of the constraint can be set with C, the maximum number of repetitions can be specified with max_iter, three or more can be specified with multi_class, and the amount of learning can be adjusted with class_weight.     
-> fit_intercept decides wheter to calculate the intercept for its model or not.    
+> fit_intercept decides wheter to calculate the intercept for its model or not.       
 
-### code
+
+### Code
 ------------
 ```python
 from sklearn.svm import LinearSVC
